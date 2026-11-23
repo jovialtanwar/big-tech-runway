@@ -1,0 +1,8 @@
+raw_id = input("Enter ID: ")
+raw_price = input("Enter price: ")
+is_active = input("Is active?: ")
+print(raw_id, type(raw_id), raw_price, type(raw_price), is_active, type(is_active))
+clean_id = int(raw_id)
+clean_price = float(raw_price)
+print(id(raw_id), id(clean_id))
+print(clean_id + 1, clean_price * 2)
